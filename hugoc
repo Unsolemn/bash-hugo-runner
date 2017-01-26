@@ -3,5 +3,5 @@ docker run \
   -v $(pwd):/src \
   -v $(pwd)/public:/public \
   -w /src \
-  mysocialobservations/hugo \
+  barantaran/hugo \
   hugo $1
