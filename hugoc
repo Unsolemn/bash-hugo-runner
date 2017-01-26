@@ -1,0 +1,7 @@
+#!/bin/bash
+docker run \
+  -v $(pwd):/src \
+  -v $(pwd)/public:/public \
+  -w /src \
+  mysocialobservations/hugo \
+  hugo $1
