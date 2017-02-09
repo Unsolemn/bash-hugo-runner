@@ -11,3 +11,8 @@ Run Hugo command:
 ```
 $ hugoc "new site ./my-site"
 ```
+
+Try to run the following command to add yourself to the group if you're getting "Couldn't connect to Docker daemon.."
+```
+$ usermod -aG docker ${USER}
+```
